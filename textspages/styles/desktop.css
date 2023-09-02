@@ -75,7 +75,17 @@ h2 {
 
 p {
     font-size: x-large;
-    line-height: 50px;
+    /* line-height: 50px; */
+    margin-bottom: 0px;
+    margin-top: 25px;
+}
+
+.portuguese{
+    color: #696969;
+    /* line-height: 25px; */
+    font-size: 20px;
+    margin-bottom: 25px;
+    margin-top: 0px;
 }
 
 footer {
@@ -86,6 +96,6 @@ footer {
     text-align: center;
 }
 
-span:hover a{
+span:hover a {
     color: aqua;
 }
