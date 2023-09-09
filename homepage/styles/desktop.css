@@ -24,7 +24,7 @@ header {
 
 .container {
     max-width: 1366px;
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -38,6 +38,7 @@ header {
 h1 {
     color: white;
     font-style: italic;
+    text-align: center;
 }
 
 ul {
@@ -148,7 +149,7 @@ footer {
     text-align: center;
 }
 
-span:hover a{
+span:hover a {
     color: aqua;
 }
 
