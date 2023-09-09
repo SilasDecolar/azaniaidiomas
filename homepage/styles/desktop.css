@@ -152,17 +152,3 @@ footer {
 span:hover a {
     color: aqua;
 }
-
-/*Apagar essa configuração depois de ter deletado todos os botões*/
-button {
-    margin: 16px 0px 20px 0px;
-    width: 200px;
-    border-radius: 5px;
-    background-color: rgb(40, 106, 250);
-    border: none;
-    color: white;
-    height: 30px;
-    font-size: large;
-    font-weight: bold;
-    cursor: pointer;
-}

@@ -1,9 +1,7 @@
 @media only screen and (max-width: 640px) {
 
-
-
     .container {
-        max-width: 420px;
+        max-width: 340px;
         width: 100%;
         margin: 0 auto;
     }
@@ -15,6 +13,10 @@
         height: 100px;
     }
 
+    header {
+        height: 100px;
+    }
+
     h1 {
         color: white;
         font-style: italic;
@@ -22,7 +24,7 @@
 
     ul {
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     li {
@@ -30,28 +32,7 @@
         padding: 0;
         margin-top: 10px;
         font-size: small;
-        margin-left: 40px;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     .containerFlexMain {
         display: block;
@@ -61,21 +42,18 @@
         width: 100%;
     }
 
+    .side {
+        width: 100%;
+        height: 300px;
+    }
 
+    iframe {
+        width: 100%;
+        height: 200px;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    a.linkBtn {
+        margin: 0px 0px 5px 0px;
+        width: 160px;
+    }
 }
